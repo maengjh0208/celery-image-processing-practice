@@ -1,4 +1,4 @@
-celery==5.3.6          # Celery: 백그라운드 태스크 처리
-redis==5.0.1           # Redis Python 클라이언트 (Celery가 Redis와 통신할 때 사용)
-Pillow==10.2.0         # 이미지 처리 라이브러리 (리사이징, 썸네일 생성 등)
-python-dotenv==1.0.0   # .env 파일에서 환경변수 읽기
+celery==5.6.3          # Celery: 백그라운드 태스크 처리
+redis==5.2.1           # Redis Python 클라이언트 (Celery가 Redis와 통신할 때 사용)
+Pillow==12.2.0         # 이미지 처리 라이브러리 (리사이징, 썸네일 생성 등)
+python-dotenv==1.2.2   # .env 파일에서 환경변수 읽기
