@@ -16,7 +16,6 @@ def create_celery_app() -> Celery:
     # Worker가 어떤 태스크 파일을 불러올지 등록
     app.conf.include = [
         "tasks.image_tasks",  # tasks/image_tasks.py
-        # 'tasks.thumbnail_tasks', # tasks/thumbnail_tasks.py
     ]
 
     return app
